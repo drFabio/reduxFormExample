@@ -1,0 +1,6 @@
+export const EMAIL_REQUIRED = 'Email is a required field'
+export const EMAIL_NOT_AN_EMAIL = 'Email should resemble an Email'
+export const PASSWORD_REQUIRED = 'Password is a required field'
+export const PASSWORD_LENGTH = 'Password must have at least 8 chars'
+export const UNABLE_TO_LOGIN = 'We were unable to log you in , are you using the right email and password ?'
+export const SUCESSFULLY_LOGIN = 'You successfully logged in!'

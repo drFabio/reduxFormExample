@@ -1,0 +1,24 @@
+@import "colors";
+
+.flashMessage__close{
+    color: $gray;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin:0 1rem;
+    &:hover{
+        cursor: pointer;
+    }
+
+}
+.flashMessage{
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.flashMessage--error{
+    color: $error;
+}
+.flashMessage--success{
+    color: $success;
+}

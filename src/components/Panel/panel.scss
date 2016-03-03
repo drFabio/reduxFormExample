@@ -1,0 +1,31 @@
+@import "sizes";
+.panel{
+    background-color: #546e7a;
+    padding:1rem 0px;
+    color:#FFF;
+    max-width: $panel-width;
+    margin:0 auto;
+    border-radius: 5px;
+    position: relative;
+    height: auto;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.panel__contents{
+    padding:0 1rem;
+}
+.panel__title{
+    padding-left: 1rem;
+}
+@media (max-width: $small), (max-device-width: $small){
+    .panel{
+        width: 95%;
+        max-width: inherit;
+    }
+    .panel__contents{
+        padding:0 0.5rem;
+    }
+    .panel__title{
+        text-align: center;
+    }
+}

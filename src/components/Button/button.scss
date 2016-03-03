@@ -1,0 +1,39 @@
+@import "colors";
+@import "sizes";
+
+
+
+.button{
+    position: relative;
+    background-color: $focus;
+    text-transform: uppercase;
+    vertical-align: middle;
+    border-style: none;
+    border-color: transparent;
+    display: inline-block;
+    outline-color: transparent;
+    outline-style: none;
+    outline-width: 0;
+    padding:0.5rem;
+    color:#FFF;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top:1em;
+}
+.button:hover{
+    cursor:pointer;
+}
+.button[disabled=disabled], .button:disabled {
+    color: $gray2;
+    background-color: $gray3;
+}
+.button[disabled=disabled]:hover, .button:disabled:hover{
+    cursor: default;
+}
+@media (max-width: $small), (max-device-width: $small){
+  .button{
+    display: block;
+    margin:0 auto;
+    width: 80%;
+  }
+}
